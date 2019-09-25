@@ -49,7 +49,7 @@ namespace Akeneo.Common
 			var option = existing as AttributeOption;
 			if (option != null)
 			{
-				return $"{baseUri}/{option.Attribute}/option/{option.Code}";
+				return $"{baseUri}/{option.Attribute}/options/{option.Code}";
 			}
 			var family = existing as Family;
 			if (family != null)
